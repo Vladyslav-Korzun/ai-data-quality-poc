@@ -1,0 +1,10 @@
+pandas
+numpy
+openpyxl
+pandasql
+sqlalchemy
+rich
+tabulate
+python-dotenv
+openai
+scikit-learn
