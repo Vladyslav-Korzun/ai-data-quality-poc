@@ -105,6 +105,7 @@ The PoC addresses a typical client request for an **AI-powered “data analyst�
 ```text
 .
 ├── app/
+│   ├── __init__.py
 │   ├── analysis.py        # Outlier detection (IQR)
 │   ├── cleaning.py        # Data normalization & cleaning
 │   ├── cli.py             # Interactive CLI
@@ -117,7 +118,11 @@ The PoC addresses a typical client request for an **AI-powered “data analyst�
 │   └── sql_safety.py      # SQL guardrails
 ├── data/
 │   └── sample.xlsx        # Example dataset
-├── knowledge/             # Optional RAG knowledge (.md / .txt)
+├── knowledge/
+│   ├── data_dictionary.md
+│   └── quality_rules.md
+├── .gitignore
+├── ARCHITECTURE.md
 ├── main.py                # Application entry point
 ├── requirements.txt
 └── README.md
