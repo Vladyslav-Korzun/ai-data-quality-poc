@@ -217,6 +217,3 @@ It is designed as a foundation that can be extended with:
 ## Author
 
 **Vladyslav Korzun**  
-Junior AI / Python Developer  
-
-Developed as part of the **PwC Slovakia – Junior AI Specialist** selection process.
